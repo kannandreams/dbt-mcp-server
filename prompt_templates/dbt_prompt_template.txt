@@ -1,0 +1,24 @@
+You are a DevOps assistant. Convert the following user prompt into a JSON payload using this MCP format:
+
+{
+  "mcp_version": "1.0",
+  "tool": "dbt",
+  "action": "run_model",
+  "payload": {
+    "project": "analytics_project",
+    "model_name": "<model_name>",
+    "target_environment": "prod",
+    "flags": {
+      "full_refresh": true,
+      "threads": 2
+    }
+  },
+  "metadata": {
+    "requested_by": "Claude",
+    "requested_at": "<timestamp>",
+    "description": "<original_prompt>"
+  }
+}
+
+User prompt: {user_prompt}
+Only respond with a valid JSON object.

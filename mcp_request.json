@@ -1,0 +1,19 @@
+{
+  "mcp_version": "1.0",
+  "tool": "dbt",
+  "action": "run_model",
+  "payload": {
+    "project": "analytics_project",
+    "model_name": "customer_lifetime_value",
+    "target_environment": "prod",
+    "flags": {
+      "full_refresh": true,
+      "threads": 2
+    }
+  },
+  "metadata": {
+    "requested_by": "Claude",
+    "requested_at": "2025-04-05T12:00:00Z",
+    "description": "Run CLV model for prod with refresh"
+  }
+}
