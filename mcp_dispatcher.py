@@ -1,4 +1,3 @@
-# mcp_dispatcher.py
 import json
 import subprocess
 import sys
@@ -7,7 +6,7 @@ from datetime import datetime
 from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel
 import uvicorn
-import requests  # for Slack notifications
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
