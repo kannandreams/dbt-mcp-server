@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+      "dbt": {
+        "url": "http://localhost:8000/trigger",
+        "description": "Handles dbt model runs via MCP",
+        "tool": "dbt"
+      }
+    }
+}

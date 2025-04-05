@@ -1,7 +1,14 @@
 [project]
 name = "dbt-mcp-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "dbt-mcp-server"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "dbt-core>=1.9.4",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "pydantic>=2.11.2",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.0",
+]
