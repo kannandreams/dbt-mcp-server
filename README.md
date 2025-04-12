@@ -53,5 +53,8 @@ python mcp_dispatcher.py mcp_request.json
 - Slack alerts for model status
 - Compatible with Claude
 
+## 🛠️ Contributing
+If you're interested in contributing, feel free to open an issue to start a discussion or directly submit a pull request. Whether it's code, ideas, or feedback—all contributions are welcome!
+
 ### License
 This MCP server is licensed under the MIT License. This means you are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the LICENSE file in the project repository.
