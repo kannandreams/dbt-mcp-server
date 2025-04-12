@@ -1,6 +1,8 @@
 # 🛠️ dbt MCP Server
 This is a minimal, extensible MCP (Model Control Protocol) server to run dbt models with a unified interface.
 
+If you like this repo, leave a ⭐️ — it means a lot!
+
 ## Overview
 A unified JSON-based workflow for triggering dbt models, tests, and other dbt operations, triggered via CLI, API, or an AI interface like Claude. Includes Slack notifications for task completions.
 
